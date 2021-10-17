@@ -3,7 +3,6 @@
     def printdata(self):
         print(f"name is{self.name}")
         print(f"train is{self.train}")
-    harrysapplication= Railwayform()
-    harrysapplication.name="harry"
+    harrysapplication=(Railwayform)
     harrysapplication.train="Rajdhani Express"
     harrysapplication.printdata()
