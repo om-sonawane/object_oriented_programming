@@ -8,7 +8,7 @@ class player:
     def moveTop(self):
         pass
 
-remote1= Remote()    
+remote1=     
 player1 = player()
 if (remote1.isLeftpressed()):
     player1.moveLeft()
