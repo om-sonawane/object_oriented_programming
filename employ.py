@@ -1,6 +1,6 @@
 class employee:
-    company ="Google"
-
+    company ="Google"      
+    salary= 100
 om = employee()
 randomgirl=employee()
 om.salary= 300
