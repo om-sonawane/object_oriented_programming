@@ -6,4 +6,3 @@ obj.a= "Vikky"
 
 print(sample.a)
 print(obj.a)
-
