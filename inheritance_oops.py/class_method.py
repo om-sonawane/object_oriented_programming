@@ -5,9 +5,9 @@ class Employee:
 
     def changesalary(self,sal):
         self.__class__.salary =sal
-      
-    def changesalary(self,sal):
-        self.salary =sal
+    @classmethod  
+    def changesalary(cls,sal):
+        cls.salary =sal
 
 e= Employee
 print(e.salary)  
