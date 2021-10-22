@@ -1,11 +1,17 @@
-class   Employee:
-    company ="bharat gas"
-    salary=5600
-    salarybonus= 500
+class  employee:
+    company = "bharat gas"
+    salary = 5600
+    salarybonus = 500
     #totalsalary= 6100
 
+    @property
     def totalsalary(self):
         return self.salary + self.salarybonus
 
-    e= ()
-    print(e.totalsalary)
+    @totalsalary.setter
+    def totalsalary(self,val):
+        self.salarybonus= val - self.salary
+
+e = employee
+print(e.totalsalary)
+e.totalsalary=5800
